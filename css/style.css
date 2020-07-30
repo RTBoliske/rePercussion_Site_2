@@ -1,0 +1,163 @@
+/* default colors 
+$color-primary: #ff9900 ;
+$color-primary-light: #ffb84d;
+$color-primary-dark: #b36b00;
+
+$color-secondary: #336666;
+$color-secondary-light: #55aaaa ;
+$color-secondary-dark: #224444;
+
+$color-tertiary: #1a66ff ;
+$color-tertiary-light: #6699ff;
+$color-tertiary-dark: #0044cc;
+
+
+$color-grey-light-1: #f7f7f7;
+$color-grey-light-2: #eee;
+
+$color-grey-dark: #777;
+$color-grey-dark-2: #999;
+$color-grey-dark-3: #333;
+
+$color-white: #fff;
+$color-black: #000;
+
+$color-drum-head: #ffebcc;
+*/
+
+
+/* overall site reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+/* set global font parameters*/
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    /* font-size: 16px; */
+    line-height: 1.7;
+    color: #777;
+
+    /* white padding around entire body */
+    padding: 3rem; 
+}
+
+.header {
+    height: 100vh;
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 184, 77, 0.4), 
+        rgba(179, 107, 0, 0.4)), 
+        url(../img/percussion-instruments_pc-jacob-wade_1900x600.jpg);
+    background-size: cover;
+    background-position: top;
+
+    position: relative;
+}
+
+/*CSS for future logo, left uncommented since logo image not yet available */
+.logo-box {
+    position: absolute;
+    top: 4rem;
+    left: 4rem;
+}
+
+.logo {
+    /* height placeholder */
+    height: 3.5rem; 
+}
+
+.text-box {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    
+}
+
+.heading-primary {
+    color: #fff;
+    text-transform: uppercase;
+    margin-bottom: 5rem;
+
+    
+}
+
+.heading-primary-main {
+    display: block;
+    font-size: 6rem;
+    font-weight: 400;
+    letter-spacing: 2rem;
+}
+
+.heading-primary-sub {
+    display: block;
+    font-size: 2rem;
+    font-weight: 700;
+    letter-spacing: .63rem;
+}
+
+.btn:link,
+.btn:visited {
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 1.5rem 4rem;
+    display: inline-block;
+    /* border: none; */
+    border-radius: 10rem;
+    cursor: pointer;
+    font-size: 2rem;
+    letter-spacing: 1rem;
+    transition: all .2s;
+    position: relative;
+    
+}
+
+.btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, .2);
+
+    
+}
+
+.btn:active {
+    transform: translateY(1px);
+    box-shadow: 0 .5rem 1rem rgba(0, 0, 0, 0);
+
+    background-color: #ffebcc;
+    color: #000;
+}
+
+.btn-white {
+    
+    color: white;
+}
+
+.btn::after {
+    content: "";
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    border-radius: 10rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    transition: all .4s;
+}
+
+.btn:hover::after {   
+    transform: scaleX(1.4) scaleY(1.6);
+    opacity: 0;
+}
+
+
+
