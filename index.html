@@ -13,16 +13,33 @@
         <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> 
         <link rel="stylesheet" href="css/style.css" type="text/css">
 
-        <!-- <script>
+       <script>
             function closeNav() {
                 document.getElementById("navi-toggle").checked = false;
             }
-        </script> -->
+        </script> 
     </head>
 
     <body>	
         <!-- original navigation button -->	
-        <div class="navigation"></div>
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav" id="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="#" class="navigation__link" onclick="closeNav()">re:Percussion</a></li>
+                    <li class="navigation__item"><a href="#section-composition" class="navigation__link" onclick="closeNav()">Compositions</a></li>
+                    <li class="navigation__item"><a href="#section-templates" class="navigation__link" onclick="closeNav()">Templates</a></li>
+                    <li class="navigation__item"><a href="#section-tutorials" class="navigation__link" onclick="closeNav()">Tutorials</a></li>
+                </ul>
+            </nav>
+        </div>
 
         <header class="header">
             <!-- elements for future logo -->
@@ -38,20 +55,94 @@
                 
                 <a href="#section-music" class="btn btn-white">Perform</a>
                 <a href="#section-templates" class="btn btn-white">Create</a>
-                <a href="#section-music" class="btn btn-white">Learn</a>
+                <a href="#section-tutorials" class="btn btn-white">Learn</a>
                 
             </div>
             
         </header>
 
         <main>
-            <section class="section-music" id="section-music">section for performance related information</section> 
+            <section class="section-music" id="section-music">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        For Performing
+                    </h2>
+                </div>
 
-            <!-- <section class="section-templates" id="section-templates">section for composing related information</section> -->
+                <div class="row">
+                    <div class="col-1-of-2">
+                        <h3 class="heading-tertiary u-margin-bottom-small">Original Compositions</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni deserunt porro mollitia, 
+                            repellendus optio temporibus quasi labore explicabo debitis?
+                        </p>
+
+                        <h3 class="heading-tertiary u-margin-bottom-small">Custom Arrangements</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni deserunt porro mollitia, 
+                            repellendus optio temporibus quasi labore explicabo debitis?
+                        </p>
+
+                        <h3 class="heading-tertiary u-margin-bottom-small">Audio Recordings</h3>
+                        <p class="paragraph">
+                            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Magni deserunt porro mollitia, 
+                            repellendus optio temporibus quasi labore explicabo debitis?
+                        </p>
+
+                        <a href="composition.html" class="btn btn-text">Learn more &rarr;</a> 
+                    </div>
+
+                    <div class="col-1-of-2">
+                        <div class="composition">
+                            <img src="img/drumline_tenors.jpg" 
+                                 alt="Drumline photo" 
+                                 class="composition__photo composition__photo--p1">
+                            <img src="img/percussion-ensemble.jpg" 
+                                 alt="Percussion ensemble" 
+                                 class="composition__photo composition__photo--p2">
+                            <img src="img/world_percussion_ensemble.jpg" 
+                                 alt="World percussion ensemble" 
+                                 class="composition__photo composition__photo--p3">
+                        </div>
+                    </div>
+                </div>
+            </section> 
+
+            <section class="section-templates" id="section-templates">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        For Creating
+                    </h2>
+                </div>
+            </section> 
                 
-            <!-- <section class="section-tutorials" id="section-tutorials">section for tutorial related information</section> -->
+            <section class="section-tutorials" id="section-tutorials">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        For Learning
+                    </h2>
+                </div>
+            </section> 
         </main>
 
-        <div class="footer"></div>
+        <div class="footer">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="#" class="footer__link">re:Percussion</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Legal</a></li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Ted Boliske</a> Copyright &copy; 2020 re:Percussion
+                    </p>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
