@@ -647,3 +647,18 @@ color: #0D3B66;
 font-weight: 700;
 } 
 
+/* post styles */
+.post-banner__bg-img {
+    background-image: linear-gradient(
+        to right bottom,
+        rgba(255, 184, 77, 0.4), 
+        rgba(179, 107, 0, 0.4)), 
+        url(../img/drum_set_example.jpeg); 
+    background-size: 100vh;
+    background-repeat: inherit;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
