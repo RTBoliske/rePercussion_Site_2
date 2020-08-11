@@ -544,6 +544,98 @@ body {
           transform: rotate(-135deg);
 }
 
+/* pages and posts styles */
+.page-banner {
+  height: 30vh;
+  padding: 80px 0 40px 0;
+  position: relative;
+}
+
+.page-banner__bg-img {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 184, 77, 0.4)), to(rgba(179, 107, 0, 0.4))), url(../img/percussion-ensemble.jpg);
+  background-image: linear-gradient(to right bottom, rgba(255, 184, 77, 0.4), rgba(179, 107, 0, 0.4)), url(../img/percussion-ensemble.jpg);
+  background-size: cover;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.page-links {
+  position: relative;
+  z-index: 1;
+  background-color: #ffebcc;
+  margin: 0 0 40px 0;
+  text-decoration: none;
+}
+
+.page-links li {
+  list-style: none;
+}
+
+.page-links li:first-child {
+  border-top: none;
+}
+
+.page-links li a {
+  display: block;
+  text-align: center;
+  padding: 17px 10px;
+  text-decoration: none;
+  color: #777;
+  -webkit-transition: all .3s;
+  transition: all .3s;
+}
+
+.page-links li a:hover {
+  color: #777;
+  background-color: #ffebcc;
+}
+
+.page-links__title {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  padding: 20px 0;
+  background-color: #1a66ff;
+}
+
+.page-links__title a {
+  color: #fff;
+  text-decoration: none;
+  background-color: #1a66ff;
+}
+
+.page-links__list {
+  list-style: none;
+}
+
+.page-links__active,
+.page-links .current_page_item {
+  text-align: center;
+  background-color: #f4e7b4;
+  color: #0D3B66;
+  font-weight: 700;
+}
+
+.post-banner__bg-img {
+  background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(255, 184, 77, 0.4)), to(rgba(179, 107, 0, 0.4))), url(../img/drum_set_example.jpeg);
+  background-image: linear-gradient(to right bottom, rgba(255, 184, 77, 0.4), rgba(179, 107, 0, 0.4)), url(../img/drum_set_example.jpeg);
+  background-size: contain;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.post-link__title {
+  text-decoration: none;
+  color: #b36b00;
+}
+
 /* section music */
 .section-music {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(247, 247, 247, 0.8)), to(rgba(255, 184, 77, 0.8)));
