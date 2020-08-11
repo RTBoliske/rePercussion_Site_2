@@ -39,7 +39,7 @@ $gutter-horizontal: 6rem;
 /*
 
 /* overall site reset */
-*,
+/* *,
 *::after,
 *::before {
     margin: 0;
@@ -49,22 +49,22 @@ $gutter-horizontal: 6rem;
 
 html {
     font-size: 10px;
-}
+} */
 
 /* set global font parameters*/
-body {
+/* body {
     box-sizing: border-box;
     font-family: "Lato", sans-serif;
     font-weight: 400;
     line-height: 1.7;
-    color: #777;
+    color: #777; */
 
     /* white padding around entire body 
-    padding: 10px; */
-}
+    padding: 10px; 
+}*/
 
 /* grid styles */
-.row {
+/* .row {
     max-width: 1200px;
     margin: 0 auto;
 }
@@ -110,10 +110,10 @@ body {
 
 .row .col-3-of-4 {
     width: calc( 3 * ((100% - 3 * 60px) / 4) + 2 * (60px)); 
-}
+} */
 
 /* utility styles */
-.u-center-text { text-align: center !important; }
+/* .u-center-text { text-align: center !important; }
 
 .u-margin-bottom-small { margin-bottom: 15px !important; }
 .u-margin-bottom-medium { margin-bottom: 40px !important; }
@@ -121,39 +121,44 @@ body {
 
 .u-margin-top-medium {margin-top: 40px !important; }
 .u-margin-top-big { margin-bottom: 80px !important; }
-.u-margin-top-huge { margin-bottom: 100px !important; }
+.u-margin-top-huge { margin-bottom: 100px !important; } */
 
 /* section music */
-.section-music {
+/* .section-music {
     background-image: linear-gradient( 
         to right bottom, 
         rgba(247, 247, 247, 0.8), 
         rgba(255, 184, 77, 0.8));
     padding: 150px 0;
-}
+} */
 
 /* section templates */
-.section-templates {
+/* .section-templates {
     background-image: linear-gradient( 
         to right bottom, 
         rgba(247, 247, 247, 0.8), 
         rgba(51, 102, 102, 0.8));
     padding: 100px 0 300px 0;
     margin-top: 0;
-}
+} */
 
 /* section tutorials */
-.section-tutorials {
+/* .section-tutorials {
     background-image: linear-gradient( 
         to right bottom, 
         rgba(247, 247, 247, 0.8), 
         rgba(255, 184, 77, 0.8));
     padding: 150px 0;
     margin-top: 0; 
-}
+} */
+
+/* section for page and post content */
+/* .section-pages {
+
+} */
 
 /* navigation styles */
-.navigation__checkbox {
+/* .navigation__checkbox {
     display: none;
 }
 
@@ -291,9 +296,9 @@ body {
 .navigation__checkbox:checked + .navigation__button .navigation__icon::after {
     top: 0;
     transform: rotate(-135deg);
-}
+} */
 
-.header {
+/* .header {
     height: 100vh;
     background-image: linear-gradient(
         to right bottom,
@@ -311,22 +316,22 @@ body {
     top: 60%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+} */
 
 /*CSS for future logo, left uncommented since logo image not yet available */
-.logo-box {
+/* .logo-box {
     position: absolute;
     top: 4rem;
     left: 4rem;
 }
 
 .logo {
-    /* height placeholder */
+    
     height: 3.5rem; 
-}
+} */
 
 /* heading and type styles */
-.heading-primary {
+/* .heading-primary {
     color: #fff;
     text-transform: uppercase;
     margin-bottom: 50px;   
@@ -379,10 +384,10 @@ body {
 
 .paragraph:not(:last-child) {
     margin-bottom: 30px;
-}
+} */
 
 /* buttons */
-.btn,
+/* .btn,
 .btn:link,
 .btn:visited {
     text-transform: uppercase;
@@ -393,7 +398,7 @@ body {
 
     border-radius: 100px;
     cursor: pointer;
-    /* font-size: 14px; */
+   
     letter-spacing: 3px;
     transition: all .2s;
     position: relative;
@@ -467,10 +472,10 @@ body {
 .btn-text:active {
     box-shadow: 0 5px 10px rgba(0, 0, 0, 0.15);
     transform: translateY(0);
-}
+} */
 
 /* footer styles */
-.footer {
+/* .footer {
     background-color: #333;
     padding: 25px 0;
     font-size: 14px;
@@ -517,10 +522,10 @@ body {
     padding-top: 20px;
     width: 60%;
     float: right;
-}
+} */
 
 /* composition - music section photos */
-.composition {
+/* .composition {
     position: relative;
 }
 
@@ -545,10 +550,10 @@ body {
 .composition__photo--p3 {
     left: 70px;
     top: 300px;
-}
+} */
 
 /* tutorial section styles */
-.tutorial {
+/* .tutorial {
     width: 90%;
     margin: 0 auto;
     padding: 60px;
@@ -558,14 +563,14 @@ body {
 
 .tutorial__img {
     height: 100%;
-}
+} */
 
 /* individual generic page styles */
 /* .page-content {
     background-color: #ffebcc;
 } */
 
-.page-banner {
+/* .page-banner {
     height: 30vh; 
 
     padding: 80px 0 40px 0;
@@ -597,7 +602,7 @@ body {
 
 .page-links li {
    
-    /* border-top: 1px solid rgb(244, 223, 138); */
+    
     list-style: none;
   }
   
@@ -626,7 +631,7 @@ body {
     text-align: center;
     padding: 20px 0;
     background-color: #1a66ff;
-    /* color: #FFF;     */
+    
 }
 
 .page-links__title a {
@@ -645,20 +650,7 @@ text-align: center;
 background-color: rgb(244, 231, 180);
 color: #0D3B66;
 font-weight: 700;
-} 
+}  */
 
 /* post styles */
-.post-banner__bg-img {
-    background-image: linear-gradient(
-        to right bottom,
-        rgba(255, 184, 77, 0.4), 
-        rgba(179, 107, 0, 0.4)), 
-        url(../img/drum_set_example.jpeg); 
-    background-size: 100vh;
-    background-repeat: inherit;
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-}
+/* å */
