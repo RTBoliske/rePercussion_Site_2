@@ -636,6 +636,12 @@ body {
   color: #b36b00;
 }
 
+.post-links {
+  text-decoration: none;
+  color: #777;
+  font-weight: 700;
+}
+
 /* section music */
 .section-music {
   background-image: -webkit-gradient(linear, left top, right bottom, from(rgba(247, 247, 247, 0.8)), to(rgba(255, 184, 77, 0.8)));
