@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Blog Post Category Archive Template</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <meta name="description" content="re:percussion provides solutions for composers working with percussion, Finale notation software, 
+                and template notation files. We can create custom Finale templates, audio reference files, and custom compositions and arrangements. ">
+        <meta name="keywords" content="finale, vdl, virtual drumline, the write score ">
+
+        <link href="https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900" rel="stylesheet"> 
+        <link rel="stylesheet" href="sass/main.css" type="text/css">
+
+       <script>
+            function closeNav() {
+                document.getElementById("navi-toggle").checked = false;
+            }
+        </script> 
+    </head>
+
+    <body>	
+        <!-- original navigation button -->	
+        <div class="navigation">
+            <input type="checkbox" class="navigation__checkbox" id="navi-toggle">
+
+            <label for="navi-toggle" class="navigation__button">
+                <span class="navigation__icon">&nbsp;</span>
+            </label>
+
+            <div class="navigation__background">&nbsp;</div>
+
+            <nav class="navigation__nav" id="navigation__nav">
+                <ul class="navigation__list">
+                    <li class="navigation__item"><a href="index.html" class="navigation__link" onclick="closeNav()">re:Percussion</a></li>
+                    <li class="navigation__item"><a href="index.html#section-music" class="navigation__link" onclick="closeNav()">Compositions</a></li>
+                    <li class="navigation__item"><a href="index.html#section-templates" class="navigation__link" onclick="closeNav()">Templates</a></li>
+                    <li class="navigation__item"><a href="index.html#section-tutorials" class="navigation__link" onclick="closeNav()">Tutorials</a></li>
+                </ul>
+            </nav>
+        </div>
+
+        <div class="page-banner">
+            <div class="post-banner__bg-img"></div> 
+            <!-- elements for future logo -->
+            <!-- <div class="logo-box">
+                <img src="" alt="Logo" class="logo">
+            </div> -->
+      
+        </div>
+
+        <main>
+            <section class="page-content" id="">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading__page-content u-margin-top-medium">
+                        Posts By Specific Author
+                    </h2>
+                </div>
+
+                <div class="post-content">
+                    <div class="row">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-tertiary u-margin-top-medium">
+                                <a href="post.html" class="post-link__title">Post #1 Title</a>
+                            </h2>
+
+                            <div class="u-margin-bottom-small">
+                                <p class="paragraph">Posted on 8.10.2020 about Category Name</p>
+                            </div>
+
+                            <div class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sapien a nisi 
+                                luctus suscipit quis non velit. Curabitur sollicitudin fermentum dolor ....                             
+                            </div>
+
+                            <div class="row">
+                                <a href="post.html" class="btn btn-text">Read more &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="post-content">
+                    <div class="row">
+                        <div class="u-margin-bottom-medium">
+                            <h2 class="heading-tertiary u-margin-top-medium">
+                                <a href="post.html" class="post-link__title">Post #2 Title</a>
+                            </h2>
+
+                            <div class="u-margin-bottom-small">
+                                <p class="paragraph">Posted on 8.10.2020 about Category Name</p>
+                            </div>
+
+                            <div class="paragraph">
+                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc quis sapien a nisi 
+                                luctus suscipit quis non velit. Curabitur sollicitudin fermentum dolor ....                             
+                            </div>
+
+                            <div class="row">
+                                <a href="post.html" class="btn btn-text">Read more &rarr;</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section> 
+        </main>
+
+        <div class="footer">
+            <div class="row">
+                <div class="col-1-of-2">
+                    <div class="footer__navigation">
+                        <ul class="footer__list">
+                            <li class="footer__item"><a href="index.html" class="footer__link">re:Percussion</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Contact Us</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Privacy Policy</a></li>
+                            <li class="footer__item"><a href="#" class="footer__link">Legal</a></li>
+                        </ul>
+                    </div> 
+                </div>
+                <div class="col-1-of-2">
+                    <p class="footer__copyright">
+                        Built by <a href="#" class="footer__link">Ted Boliske</a> Copyright &copy; 2020 re:Percussion
+                    </p>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
