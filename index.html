@@ -37,6 +37,7 @@
                     <li class="navigation__item"><a href="#section-composition" class="navigation__link" onclick="closeNav()">Compositions</a></li>
                     <li class="navigation__item"><a href="#section-templates" class="navigation__link" onclick="closeNav()">Templates</a></li>
                     <li class="navigation__item"><a href="#section-tutorials" class="navigation__link" onclick="closeNav()">Tutorials</a></li>
+                    <li class="navigation__item"><a href="#section-blog" class="navigation__link" onclick="closeNav()"" class="btn btn-white">Discuss</a></li>
                 </ul>
             </nav>
         </div>
@@ -54,7 +55,8 @@
                 
                 <a href="#section-music" class="btn btn-white">Perform</a>
                 <a href="#section-templates" class="btn btn-white">Create</a>
-                <a href="#section-tutorials" class="btn btn-white">Learn</a>            
+                <a href="#section-tutorials" class="btn btn-white">Learn</a>
+                <a href="#section-blog" class="btn btn-white">Discuss</a>            
             </div>       
         </header>
 
@@ -157,9 +159,47 @@
                 <div class="row">
                     <a href="page.html" class="btn btn-text">Learn more &rarr;</a>
                 </div>
-
-                
-            </section> 
+            </section>
+            
+            <section class="section-blog" id="section-blog">
+                <div class="u-center-text u-margin-bottom-big">
+                    <h2 class="heading-secondary">
+                        Talking Percussion Composition
+                    </h2>
+        
+                    <div class="row">
+                        <div class="blog">                       
+                            <div class="post-summary">
+                                <div class="col-1-of-3">
+                                    <a class="post-summary__date post-summary__date u-center-text" 
+                                        href="<?php the_permalink(); ?>">
+                                        <span class="post-summary__month"></span>
+                                        <span class="post-summary__day"></span>
+                                    </a>
+                                </div>
+                                            
+                                            
+                                            
+                                <div class="col-2-of-3">
+                                    <div class="post-summary__content">
+                                        <h5>
+                                            <a href="#"">Post Title</a>
+                                        </h5>
+                                        <p class="post-summary__content-excerpt">
+                                               Post Content Excerpt         
+                                            <a href="#" class="">Read more</a>
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="row">
+                        <a href="#" class="btn btn-text">Discover more &rarr;</a>
+                    </div>
+                </div>
+            </section>
         </main>
 
         <div class="footer">
