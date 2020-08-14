@@ -657,15 +657,15 @@ body {
 .post-summary__date {
   text-decoration: none;
   display: block;
-  top: 0;
+  top: 15px;
   left: 0;
   position: absolute;
-  padding: 14px 0 11px 0;
+  padding: 11px 0;
   color: #FFF;
   border-radius: 50%;
   background-color: #b36b00;
-  height: 80px;
-  width: 80px;
+  height: 90px;
+  width: 90px;
   line-height: 1.5;
   -webkit-transition: opacity .33s;
   transition: opacity .33s;
@@ -674,14 +674,14 @@ body {
 
 .post-summary__month {
   display: block;
-  font-size: 1.5rem;
+  font-size: 2rem;
   font-weight: 400;
   text-transform: uppercase;
 }
 
 .post-summary__day {
   display: block;
-  font-size: 2.02rem;
+  font-size: 2.5rem;
   font-weight: 700;
 }
 
