@@ -29,12 +29,22 @@ ORDER:Base > Typography > General layout >  grid > specific page layout > compon
 }
 
 html {
-  font-size: 10px;
+  font-size: 62.5%;
 }
 
 body {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+}
+
+::-moz-selection {
+  background-color: #ff9900;
+  color: #fff;
+}
+
+::selection {
+  background-color: #ff9900;
+  color: #fff;
 }
 
 /* heading and type styles */
